@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Login_UI",
+    "name": "Login App",
     "slug": "Login_UI",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.prajwal_chaudhari.Login_UI"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2fea3b6d-fc6e-4d69-b142-cf7923bc29d0"
+      }
     }
   }
 }
