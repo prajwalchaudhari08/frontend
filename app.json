@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.prajwal_chaudhari.Login_UI"
@@ -43,7 +43,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "2fea3b6d-fc6e-4d69-b142-cf7923bc29d0"
+        "projectId": "c5916909-e0a9-4fd8-bc6f-d548aa49a7fd"
       }
     }
   }

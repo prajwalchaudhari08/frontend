@@ -21,14 +21,17 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: "#4CAF50",
     paddingVertical: 15,
+    paddingHorizontal: 40, // Added to make the button wider
     borderRadius: 10,
     marginTop: 20,
     marginBottom: 20,
-    alignItems: "center", // Centers content horizontally
+    alignItems: "center",
     justifyContent: "center",
+    width: 250, // Fixed width for a larger button
+    alignSelf: "center", // Centers button in parent
   },
   text: {
-    fontSize: 16,
+    fontSize: 18, // Slightly larger text for better visibility
     color: "white",
     fontWeight: "bold",
     textAlign: "center",

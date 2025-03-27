@@ -43,7 +43,7 @@ const SignUp = () => {
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
       <Image
-        source={require("@/assets/images/login.jpg")}
+        source={require("@/assets/images/signup.jpg")}
         style={{ width: "100%", height: 400 }}
         resizeMode="cover"
       />

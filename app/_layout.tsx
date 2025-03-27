@@ -7,7 +7,9 @@ const RootLayout = () => {
   return (
 
     <AuthProvider>
-      <Stack screenOptions={{headerShown:false}}>
+      <Stack screenOptions={{
+        headerShown:false
+        }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="login" />
       <Stack.Screen name="signup" />

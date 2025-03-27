@@ -26,9 +26,9 @@ export default function Index() {
               source={require("@/assets/images/Slide1.jpg")}
               style={styles.image}
             />
-            <Text style={styles.title}>There's a lot more...</Text>
+            <Text style={styles.title}>Introduction...</Text>
             <Text style={styles.subtitle}>
-              Home, Office, Decor, Tables etc.
+            Our Simple Login App provides a basic and user-friendly authentication experience
             </Text>
           </View>
 
@@ -38,9 +38,10 @@ export default function Index() {
               source={require("@/assets/images/Slide2.jpg")}
               style={styles.image}
             />
-            <Text style={styles.title}>Explore Our Collection</Text>
+            <Text style={styles.title}>Tech Stack Use...</Text>
             <Text style={styles.subtitle}>
-              Find the best furniture for your space
+              Login App is built with React Native Expo, Supabase, and Express.js
+              to provide a smooth and efficient authentication experience.
             </Text>
           </View>
 
@@ -50,6 +51,10 @@ export default function Index() {
               source={require("@/assets/images/Slide3.jpg")}
               style={styles.image}
             />
+             <Text style={styles.title}>Created by...</Text>
+             <Text style={styles.subtitle}>
+              Prajwal Chaudhari
+            </Text>
           </View>
         </Swiper>
       </View>

@@ -1,8 +1,9 @@
-import { View, Text, Button, Alert } from "react-native";
+import { View, Text, Button, Alert} from "react-native";
 import React, { useState,useEffect } from "react";
 import { useRouter } from "expo-router";
 import { logoutUser } from "@/src/api"; // Import logout API
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import MyButton from "@/components/navigations/MyButton";
 
 const HomeScreen = () => {
   const [email, setEmail] = useState(""); // Store user email from login
@@ -31,8 +32,9 @@ const HomeScreen = () => {
 
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Welcome to Home Page</Text>
-      <Button title="Logout" onPress={handleLogout} />
+      <Text style={{fontSize:24}}>Click the "Logout" button.</Text>
+      {/* Updated Buttons */}
+      <MyButton title={"Logout"} onPress={handleLogout} />
     </View>
   );
 };
